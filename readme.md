@@ -1,6 +1,8 @@
 # Digitimer DS8R high frequency control box sketch 
 An Arduino sketch to generate pulses for high frequency stimulation using Digitimer DS8R stimulator.
 
+<img src="ds8r-and-control-box.bmp" alt="A control box and DS8R">
+
 # Sketches
 The following sketches are available. Note that the exact frequency of the generated pulses will depend on the Arduino board. You can measure to check the output frequency if you require it to be precise. 
 For High frequency modulation use: (it allows to easily change the pulsewidth of the low frequency) This is easiest sketch to use with minimal to no change required to generate ~30 Hz over ~10 kHz on Arduino MEGA2560.  
