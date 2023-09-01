@@ -23,7 +23,7 @@ int LED =13;// output pin
 // NO NEED TO CHANGE BELOW.
 //===================================================================
 
-bool DEBUG=true;// In debug mode when true.
+bool DEBUG=false;// In debug mode when true.
 bool LOW_FREQ_OFF=false;//Turn off the low frequency when true.
 /*
  * DEBUG NOTE: HIGH_FREQ@10k=> if output Fs@50k, then 100 samples => 20PERIODs.
